@@ -1,3 +1,7 @@
+---
+Title: Upgrading
+Sort: 5
+---
 # Upgrading
 
 ## From the legacy Agent (Unitynodes) to UNetwork

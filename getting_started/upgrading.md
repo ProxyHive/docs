@@ -14,7 +14,7 @@ The legacy ProxyHive **Agent** is discontinued and unsupported after **15 July
    the agent.
 3. **Remove** the ProxyHive Agent and the Unity app from each board.
 4. **Install UNetwork** on each board and assign your endpoints.
-5. Use the [Farmer app](/features/adb) to open each board and activate its UNetwork
+5. Use the [Farmer app](/features/ADB) to open each board and activate its UNetwork
    license.
 
 ## Appliance updates

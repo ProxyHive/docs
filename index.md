@@ -15,9 +15,9 @@ Farmer** desktop app.
 
 - **[Getting Started](/getting_started/requirements)** — hardware requirements,
   supported architectures, and how to install the appliance.
-- **[Features](/welcome/features)** — proxies, ADB, APK management, debloat,
+- **[Features](/overview)** — proxies, ADB, APK management, debloat,
   DHCP and the web interface.
-- **[Networking](/networking/wan)** — how the WAN and LAN interfaces work and how
+- **[Networking](/networking/WAN)** — how the WAN and LAN interfaces work and how
   the appliance is managed.
 - **[Rules](/rules/fair_use)** — fair use and the traffic policy you must follow
   to keep your account in good standing.

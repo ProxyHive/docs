@@ -19,7 +19,7 @@ When you create a setup command you pick the hardware in the **box configurator*
 ![The box configurator with the custom WAN and LAN interface fields set to eth1 and eth0 for a mini-PC, alongside the architecture selector.](/images/getting-started/box-configurator.png)
 
 These values are stored with your connection token and written to the appliance
-configuration during setup. See [WAN](/networking/wan) and [LAN](/networking/lan).
+configuration during setup. See [WAN](/networking/WAN) and [LAN](/networking/LAN).
 
 ## After first login
 
@@ -28,10 +28,10 @@ your **USB and OTG devices**. From the device list you can:
 
 1. **Unbind** any endpoints still assigned to the legacy agent.
 2. **Debloat**, install and remove APKs on each board — see
-   [Debloat](/features/debloat) and [APK Install](/features/apk_install).
+   [Debloat](/features/debloat) and [APK Install](/features/APK_Install).
 3. Remove the ProxyHive Agent and the Unity app from the boards and install
    **UNetwork**.
 4. **Assign your endpoints** to the boards.
 
 Each board then shows a **Proxy IP** with **ADB** and **Proxy** enabled. Continue
-with the [Farmer app](/features/adb) to configure the UNetwork license.
+with the [Farmer app](/features/ADB) to configure the UNetwork license.

@@ -32,7 +32,7 @@ your interfaces in the [box configurator](/getting_started/configuration).
 
 ## Network
 
-- A **WAN** uplink — Wi-Fi or a wired NIC. See [WAN](/networking/wan).
-- A **LAN** port — a **wired NIC** connected to the boards. See [LAN](/networking/lan).
+- A **WAN** uplink — Wi-Fi or a wired NIC. See [WAN](/networking/WAN).
+- A **LAN** port — a **wired NIC** connected to the boards. See [LAN](/networking/LAN).
 
 ![A Raspberry Pi 5 in a metal case fitted with a PCIe-to-USB expansion board, providing eight USB 3.0 ports for connecting boards; the inset shows the Pi 5 mounted inside.](/images/getting-started/pi5-pcie-usb-case.jpg)

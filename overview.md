@@ -11,11 +11,11 @@ desktop app. The main capabilities:
 ## Appliance
 
 - **Board discovery** — every phone connected over USB/OTG or found on the LAN is
-  detected automatically. See [DHCP](/features/dhcp).
+  detected automatically. See [DHCP](/features/DHCP).
 - **Residential proxy per board** — each board is routed through its own assigned
   residential endpoint. See [Proxy](/features/proxy).
 - **APK management** — install, update and remove the earning app on any board
-  directly from the appliance web interface. See [APK Install](/features/apk_install).
+  directly from the appliance web interface. See [APK Install](/features/APK_Install).
 - **Debloat** — remove unwanted vendor/bloatware apps from a board based on an APK
   whitelist. See [Debloat](/features/debloat).
 - **Box control** — manage USB/OTG slots and fan control from the appliance

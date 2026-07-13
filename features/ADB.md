@@ -24,4 +24,4 @@ token, Cloudflare rejects the connection at the edge.
 ![The ProxyHive Farmer app with a board mirror open, driving the on-device UNetwork app over the account-gated ADB tunnel.](/images/welcome/farmer-board-grid.jpg)
 
 APK installs are **not** performed over this tunnel — they go through the appliance
-web interface. See [APK Install](/features/apk_install).
+web interface. See [APK Install](/features/APK_Install).

@@ -1,3 +1,7 @@
+---
+Title: Installation
+Sort: 2
+---
 # Installation
 
 ## 1. Prepare the host

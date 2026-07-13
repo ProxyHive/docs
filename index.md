@@ -5,7 +5,7 @@ boards or headless phones into a managed residential proxy fleet running
 **UNetwork**, orchestrated by the **ProxyHive Appliance** and the **ProxyHive
 Farmer** desktop app.
 
-> 📷 **Screenshot:** _The ProxyHive dashboard at proxyhive.org showing an appliance with its boards online._
+![The ProxyHive dashboard at proxyhive.org listing your appliances with hostname, board count, status and claim date; here a box with all 20 boards online.](/images/features/dashboard-appliances.png)
 
 ## Start here
 

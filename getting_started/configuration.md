@@ -1,3 +1,7 @@
+---
+Title: Configuration
+Sort: 3
+---
 # Configuration
 
 ## Box configurator (WAN / LAN / architecture)

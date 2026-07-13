@@ -12,7 +12,7 @@ anywhere in the world through a secure Cloudflare tunnel.
 - Once logged in you see all USB/OTG devices and can debloat, install/remove APKs,
   and assign endpoints. See [Configuration](/getting_started/configuration).
 
-> 📷 **Screenshot:** _The appliance login screen asking for the ProxyHive e-mail._
+![The ProxyHive Appliance login screen, which signs in with your account e-mail via a one-time code.](/images/networking/appliance-login.png)
 
 ## Board management
 

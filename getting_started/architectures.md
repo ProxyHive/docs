@@ -1,3 +1,7 @@
+---
+Title: Architectures
+Sort: 4
+---
 # Architectures
 
 The ProxyHive Appliance ships as **multi-architecture** container images, so the

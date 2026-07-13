@@ -27,4 +27,4 @@ desktop app. The main capabilities:
 - **Account-gated** — the ADB tunnel is only reachable by the Farmer app with your
   account's service token; the ADB socket is never exposed openly.
 
-> 📷 **Screenshot:** _The Farmer app board grid with live screenshots of several boards._
+![The ProxyHive Farmer app showing the board grid with live screenshots of several boards, one board opened in the mirror view running UNetwork.](/images/welcome/farmer-board-grid.jpg)

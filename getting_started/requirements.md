@@ -1,3 +1,7 @@
+---
+Title: Requirements
+Sort: 1
+---
 # Requirements
 
 ## Operating system

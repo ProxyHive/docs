@@ -1,3 +1,7 @@
+---
+ShowOnMenu: false
+---
+
 # ProxyHive Documentation
 
 Welcome to the official ProxyHive knowledge base. ProxyHive turns unused Android

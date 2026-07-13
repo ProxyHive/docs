@@ -16,4 +16,4 @@ A board should run **UNetwork and nothing else**. The whitelist enforces that:
 Keeping boards to the whitelist is how you stay within [Fair Use](/rules/fair_use)
 and avoid the forbidden [Traffic Usage](/rules/traffic_usage) that leads to a ban.
 
-> 📷 **Screenshot:** _The Debloat action applying the APK whitelist to a board._
+![The Debloat confirmation dialog, which uninstalls every non-system app that is not on the APK whitelist.](/images/features/debloat-confirm.png)

@@ -21,7 +21,7 @@ token, Cloudflare rejects the connection at the edge.
 4. Click a board to open a **live mirror** and configure it (e.g. activate the
    UNetwork license).
 
-> 📷 **Screenshot:** _The Farmer app with an open board mirror showing UNetwork._
+![The ProxyHive Farmer app with a board mirror open, driving the on-device UNetwork app over the account-gated ADB tunnel.](/images/welcome/farmer-board-grid.jpg)
 
 APK installs are **not** performed over this tunnel — they go through the appliance
 web interface. See [APK Install](/features/apk_install).

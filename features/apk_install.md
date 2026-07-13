@@ -20,4 +20,4 @@ Installable apps are governed by an **APK whitelist**. The same whitelist drives
 the [Debloat](/features/debloat) function, which removes apps that are not on it.
 See [APK Whitelist](/rules/apk_whitelist).
 
-> 📷 **Screenshot:** _The appliance device list with the APK install / remove actions._
+![The Installed software dialog for a board, listing packages with Force-Close and Uninstall actions.](/images/features/apk-installed-software.png)

@@ -12,4 +12,4 @@ appliances, boards, endpoints and rewards.
 - **[Rewards](/features/webinterface/rewards)** — your UNetwork earnings.
 - **[Settings](/features/webinterface/settings)** — account settings.
 
-> 📷 **Screenshot:** _The ProxyHive dashboard overview._
+![The ProxyHive dashboard overview with proxy, agent, traffic and account tiles at a glance.](/images/features/dashboard.png)

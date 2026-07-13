@@ -11,7 +11,7 @@ own WAN address.
   routes only that board's traffic through it.
 - The board's exit IP is a **residential** address, verified by the platform.
 
-> 📷 **Screenshot:** _A board in the device list showing its residential Proxy IP._
+![A board in the device list showing its assigned residential proxy country and exit IP (redacted here).](/images/features/device-proxy-ip.png)
 
 ## Health
 

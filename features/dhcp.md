@@ -11,7 +11,7 @@ network and become discoverable automatically.
 - The appliance's own DHCP does not interfere with your home router — it only
   serves the isolated board network behind the LAN NIC.
 
-> 📷 **Screenshot:** _The appliance device list showing boards discovered on the LAN._
+![The appliance device list showing boards discovered on the LAN, each mapped to a slot.](/images/features/device-proxy-ip.png)
 
 This is why the **LAN port must be a wired NIC**: the appliance owns that segment
 and hands out addresses to the boards on it.

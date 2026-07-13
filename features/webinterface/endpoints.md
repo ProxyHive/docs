@@ -12,7 +12,7 @@ an endpoint assigned to it.
   agent must be unbound first.
 - **Rotate** a board's exit IP when needed.
 
-> 📷 **Screenshot:** _The Endpoints page listing residential endpoints with their exit IPs and countries._
+![The Proxies page listing each board's residential endpoint with its country, exit IP (redacted here), risk score and monthly cost.](/images/features/proxies-endpoints.png)
 
 ## Pricing
 

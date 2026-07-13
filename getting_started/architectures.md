@@ -16,4 +16,4 @@ architecture and interface names.
 The setup script detects the CPU architecture automatically and pulls the matching
 image, so no manual image selection is needed on the box itself.
 
-> 📷 **Screenshot:** _The box configurator with the hardware selector showing "Raspberry Pi 5" and "Other"._
+![The box configurator with the hardware selector; choosing "Other (mini-PC / server — custom)" reveals the WAN/LAN interface and architecture fields, here set for an amd64 mini-PC.](/images/getting-started/box-configurator.png)

@@ -19,7 +19,7 @@ to flash **Raspberry Pi OS Lite (64-bit)**:
    [box configurator](/getting_started/configuration)).
 3. Click **Generate setup command** and copy it.
 
-> 📷 **Screenshot:** _The "Set up a box" card with the generated setup command._
+![The "Set up a box" card in the dashboard with hardware, WAN/LAN interface and architecture fields filled in, and the generated one-line setup command ready to run over SSH.](/images/getting-started/box-configurator.png)
 
 ## 3. Run it on the host
 

@@ -9,7 +9,7 @@ proxied board traffic out to the residential endpoints.
   [box configurator](/getting_started/configuration) — for example `eth1`,
   `wlan0` or `enp2s0`.
 
-> 📷 **Screenshot:** _The box configurator WAN interface field._
+![The box configurator with the WAN interface field, which may be a Wi-Fi or wired NIC uplink.](/images/getting-started/box-configurator.png)
 
 The WAN address is the appliance's own public IP. Board traffic does **not** exit
 through it — each board exits through its assigned residential

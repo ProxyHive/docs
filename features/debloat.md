@@ -20,7 +20,7 @@ Debloat helps you strip a board down to **UNetwork only**.
 3. The board is reduced to the apps on the [APK Whitelist](/rules/apk_whitelist);
    everything else is removed or disabled.
 
-> 📷 **Screenshot:** _The Debloat menu item on a device in the appliance device list._
+![The Debloat confirmation dialog on a board, warning that every non-system app not on the whitelist will be uninstalled.](/images/features/debloat-confirm.png)
 
 > ⚠️ You are still responsible for the board. If your device ships bloatware that
 > Debloat cannot fully remove, disable it manually before enabling the proxy —

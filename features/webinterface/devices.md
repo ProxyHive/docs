@@ -11,7 +11,7 @@ The **Devices** page lists every board across all your appliances.
 - **Proxy** — the board's residential exit is live.
 - **Device code** — the board's unique code.
 
-> 📷 **Screenshot:** _The Devices page with appliance boards, showing the box name and proxy status._
+![The Devices page listing appliance boards with health, the owning box name in the App column, license and device code.](/images/features/devices.png)
 
 ## Actions
 

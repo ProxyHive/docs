@@ -12,7 +12,7 @@ When you create a setup command you pick the hardware in the **box configurator*
     `eth0`, `enp3s0`).
   - **Architecture** — `amd64` or `arm64`.
 
-> 📷 **Screenshot:** _The box configurator with the custom WAN/LAN interface fields._
+![The box configurator with the custom WAN and LAN interface fields set to eth1 and eth0 for a mini-PC, alongside the architecture selector.](/images/getting-started/box-configurator.png)
 
 These values are stored with your connection token and written to the appliance
 configuration during setup. See [WAN](/networking/wan) and [LAN](/networking/lan).

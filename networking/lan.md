@@ -11,7 +11,7 @@ assigned endpoint.
   [box configurator](/getting_started/configuration) — for example `eth0` or
   `enp3s0`.
 
-> 📷 **Screenshot:** _The box configurator LAN interface field._
+![The box configurator with the LAN interface field, which must be a wired NIC connected to the boards.](/images/getting-started/box-configurator.png)
 
 > ⚠️ Do not place a USB hub between the appliance and the boards. Use a PCIe USB
 > expansion for more ports. See [Requirements](/getting_started/requirements).

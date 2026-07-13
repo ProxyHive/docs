@@ -1,5 +1,6 @@
-# APK Whitelist
-
+---
+Title: APK Whitelist
+---
 The **APK whitelist** defines which apps are allowed to run on a board. It governs
 both what you can [install](/features/APK_Install) and what the
 [Debloat](/features/debloat) function keeps — everything not on the whitelist is

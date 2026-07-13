@@ -1,5 +1,6 @@
-# Proxy
-
+---
+Title: Proxy
+---
 Every board runs behind its own **residential proxy endpoint**. The board's
 outbound traffic exits through a residential IP, never through the appliance's
 own WAN address.

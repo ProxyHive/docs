@@ -1,5 +1,6 @@
-# Rewards
-
+---
+Title: Rewards
+---
 The **Rewards** page shows your UNetwork earnings across your boards.
 
 - Rewards accrue as your boards build **uptime** on UNetwork behind their assigned

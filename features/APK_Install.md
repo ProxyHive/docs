@@ -1,5 +1,6 @@
-# APK Install
-
+---
+Title: APK Install
+---
 You manage the earning app on each board directly from the **appliance web
 interface** — install, update and remove APKs from the device list.
 

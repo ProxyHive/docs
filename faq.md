@@ -2,9 +2,6 @@
 title: FAQ
 sort: 20
 ---
-
-# FAQ
-
 ## Why did Unitynodes stop working?
 
 Unitynodes 1.1.5 was discontinued on **15 July 2026**. It was driven by the

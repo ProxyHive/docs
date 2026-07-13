@@ -1,5 +1,6 @@
-# Dashboard
-
+---
+Title: Dashboard
+---
 The dashboard at **proxyhive.org** is your account home. From here you manage your
 appliances, boards, endpoints and rewards.
 

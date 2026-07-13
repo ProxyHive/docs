@@ -2,9 +2,6 @@
 title: Welcome
 ShowOnMenu: false
 ---
-
-# ProxyHive Documentation
-
 Welcome to the official ProxyHive knowledge base. ProxyHive turns unused Android
 boards or headless phones into a managed residential proxy fleet running
 **UNetwork**, orchestrated by the **ProxyHive Appliance** and the **ProxyHive

@@ -2,8 +2,6 @@
 Title: Requirements
 Sort: 1
 ---
-# Requirements
-
 ## Operating system
 
 The appliance is validated **only on Debian 13 (Trixie)**. The setup script

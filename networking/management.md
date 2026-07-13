@@ -1,5 +1,6 @@
-# Management
-
+---
+Title: Management
+---
 The appliance is managed through its **local web interface**, reachable from
 anywhere in the world through a secure Cloudflare tunnel.
 

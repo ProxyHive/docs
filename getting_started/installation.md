@@ -2,8 +2,6 @@
 Title: Installation
 Sort: 2
 ---
-# Installation
-
 ## 1. Prepare the host
 
 Install **Debian 13 (Trixie)** — on a Raspberry Pi use the **Raspberry Pi Imager**

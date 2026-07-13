@@ -1,5 +1,6 @@
-# Settings
-
+---
+Title: Settings
+---
 The account **Settings** page manages your ProxyHive profile and preferences.
 
 - Account details and login.

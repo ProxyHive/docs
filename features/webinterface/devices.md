@@ -1,5 +1,6 @@
-# Devices
-
+---
+Title: Devices
+---
 The **Devices** page lists every board across all your appliances.
 
 ## Columns

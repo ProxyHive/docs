@@ -1,5 +1,6 @@
-# Fair Use
-
+---
+Title: Fair Use
+---
 ProxyHive is intended **solely** for running **UNetwork** on a headless board or an
 unused physical phone. Following these rules is not hard — but they are strict, and
 violations are detected.

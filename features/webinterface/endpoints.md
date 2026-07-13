@@ -1,5 +1,6 @@
-# Endpoints
-
+---
+Title: Endpoints
+---
 An **endpoint** is a residential proxy slot. Each board you want to earn with needs
 an endpoint assigned to it.
 

@@ -1,5 +1,6 @@
-# Box Control
-
+---
+Title: Box Control
+---
 Box-level hardware is managed on the appliance **Settings** page (`/settings`).
 
 ## USB / OTG slots

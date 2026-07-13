@@ -1,5 +1,6 @@
-# ADB & the Farmer App
-
+---
+Title: ADB & the Farmer App
+---
 Boards are managed over **ADB**. The appliance runs an ADB server that reaches
 every board; the **ProxyHive Farmer** desktop app connects to it to view and drive
 each board.

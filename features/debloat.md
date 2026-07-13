@@ -1,5 +1,6 @@
-# Debloat
-
+---
+Title: Debloat
+---
 Each board in the appliance device list has a **Debloat** action. Debloat removes
 apps from the board that are **not on the APK whitelist**, cutting background
 traffic and reducing the risk of policy violations.

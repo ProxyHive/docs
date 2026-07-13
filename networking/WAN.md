@@ -1,5 +1,6 @@
-# WAN
-
+---
+Title: WAN
+---
 The **WAN** interface is the appliance's uplink to the internet. It carries the
 proxied board traffic out to the residential endpoints.
 

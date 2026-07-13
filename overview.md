@@ -2,9 +2,6 @@
 title: Overview
 sort: 10
 ---
-
-# Overview
-
 ProxyHive is built around a self-hosted **Appliance** and a companion **Farmer**
 desktop app. The main capabilities:
 

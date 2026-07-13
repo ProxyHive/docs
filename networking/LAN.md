@@ -1,5 +1,6 @@
-# LAN
-
+---
+Title: LAN
+---
 The **LAN** interface connects the appliance to the boards. The appliance owns this
 segment, runs [DHCP](/features/DHCP) on it, and routes each board through its
 assigned endpoint.

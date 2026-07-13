@@ -1,5 +1,6 @@
-# Traffic Usage
-
+---
+Title: Traffic Usage
+---
 Endpoints must carry **UNetwork traffic only**. The appliance reveals non-UNetwork
 traffic on your boards, and such traffic leads to a **permanent ban without
 refund**. Non-UNetwork traffic also drives endpoint prices up for everyone.

@@ -2,8 +2,6 @@
 Title: Upgrading
 Sort: 5
 ---
-# Upgrading
-
 ## From the legacy Agent (Unitynodes) to UNetwork
 
 The legacy ProxyHive **Agent** is discontinued and unsupported after **15 July

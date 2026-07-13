@@ -2,8 +2,6 @@
 Title: Configuration
 Sort: 3
 ---
-# Configuration
-
 ## Box configurator (WAN / LAN / architecture)
 
 When you create a setup command you pick the hardware in the **box configurator**:

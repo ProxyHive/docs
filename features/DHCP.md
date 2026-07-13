@@ -1,5 +1,6 @@
-# DHCP
-
+---
+Title: DHCP
+---
 The appliance runs a **DHCP server** on its LAN interface for the boards. Boards
 connected to the LAN NIC receive an address on the appliance's private board
 network and become discoverable automatically.

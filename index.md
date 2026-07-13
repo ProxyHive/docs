@@ -1,4 +1,5 @@
 ---
+title: Welcome
 ShowOnMenu: false
 ---
 

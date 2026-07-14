@@ -29,7 +29,8 @@ Yes. The appliance images are multi-architecture. You can run it on a Raspberry 
 ## How do I connect to my boards?
 
 Through the **ProxyHive Farmer** desktop app. Log in with your ProxyHive account,
-select your appliance, and you will see all its boards.
+select your appliance, and you will see all its boards. You can also use your windows PC to switch the Phines to OTG mode.
+Connecting the boxes with USB to the Appliance is optional.
 
 ## Will endpoint prices change?
 
@@ -52,14 +53,14 @@ for hours. Keep the appliance's LAN segment isolated to the boards only.
 
 ## Can I connect my phones over Wi-Fi?
 
-No. Every box **must** be connected to a physical network port on the appliance.
-Only the **WAN uplink** to your home router may use Wi-Fi. See
-[WAN](/networking/WAN).
+Yes. You can sue any two interfaces on your appliances. One for WAN (Uplink) and one for the Boards.
+You can mix WIFI, Dongles, USB ETH and LAN Ports as you like. Use the Setup wizzard to set your interface names.
+See [WAN](/networking/WAN).
 
 ## Can I use an appliance with two physical LAN ports?
 
 Yes. Instead of a Wi-Fi uplink you can use a second wired NIC for the WAN — one
-NIC connected to the boards (LAN) and one to your home router (WAN).
+NIC connected to the boards (LAN, optional with switch) and one to your home router (WAN).
 
 ## Can I reach my box when I am away from home?
 
@@ -72,7 +73,7 @@ ProxyHive account that owns the box. See [Remote management](/networking/managem
 
 Only with your consent. In the rare cases where you request support, ProxyHive
 staff may access the box **with your explicit consent** to help resolve the
-issue. There is no unattended access.
+issue. There is no unattended access. We wills end you a ssh pubkey that you need to save on your box and you can remove it at anytime.
 
 ## Is the ADB interface secured?
 

@@ -73,7 +73,7 @@ ProxyHive account that owns the box. See [Remote management](/networking/managem
 
 Only with your consent. In the rare cases where you request support, ProxyHive
 staff may access the box **with your explicit consent** to help resolve the
-issue. There is no unattended access. We wills end you a ssh pubkey that you need to save on your box and you can remove it at anytime.
+issue. There is no unattended access. We will send you a ssh pubkey that you need to save on your box and you can remove it at anytime.
 
 ## Is the ADB interface secured?
 

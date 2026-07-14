@@ -12,7 +12,7 @@ Lite (64-bit)** which is Debian-based; on x86 hardware install **Debian 13
 ## Hardware — Raspberry Pi
 
 - **Raspberry Pi 5** with at least **4 GB RAM** (8 GB recommended).
-- If you run **more than 2 boxes**, add a **PCIe USB expansion**.
+- If you run **more than 2 boxes**, add a **PCIe USB expansion** if you want to manage your boxes with the appliance.
 - An active **cooler** for the Pi is strongly recommended.
 - A fast **SD card, 16 GB or larger**.
 
@@ -31,6 +31,6 @@ your interfaces in the [box configurator](/getting_started/configuration).
 ## Network
 
 - A **WAN** uplink — Wi-Fi or a wired NIC. See [WAN](/networking/WAN).
-- A **LAN** port — a **wired NIC** connected to the boards. See [LAN](/networking/LAN).
+- A **LAN** port — a Wi-Fi or a wired NIC connected to the boards. See [LAN](/networking/LAN).
 
 ![A Raspberry Pi 5 in a metal case fitted with a PCIe-to-USB expansion board, providing eight USB 3.0 ports for connecting boards; the inset shows the Pi 5 mounted inside.](/images/getting-started/pi5-pcie-usb-case.jpg)

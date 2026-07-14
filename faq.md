@@ -53,7 +53,7 @@ for hours. Keep the appliance's LAN segment isolated to the boards only.
 
 ## Can I connect my phones over Wi-Fi?
 
-Yes. You can sue any two interfaces on your appliances. One for WAN (Uplink) and one for the Boards.
+Yes. You can use any two interfaces on your appliances. One for WAN (Uplink) and one for the Boards.
 You can mix WIFI, Dongles, USB ETH and LAN Ports as you like. Use the Setup wizzard to set your interface names.
 See [WAN](/networking/WAN).
 

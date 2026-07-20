@@ -15,8 +15,7 @@ token, Cloudflare rejects the connection at the edge.
 
 ## Using the Farmer app
 
-1. Download the **[Farmer app](https://download.proxyhive.org)** for Windows, macOS
-   or Linux.
+1. Download the **[Farmer app for Windows](https://download.proxyhive.org/proxyhive-farmer-win-x64.zip)** or **[Farmer app for Linux](https://download.proxyhive.org/proxyhive-farmer-linux-x86_64.AppImage)**.
 2. Log in with your ProxyHive account and select your appliance.
 3. You will see every board of the appliance as a card with a **live screenshot**.
 4. Click a board to open a **live mirror** and configure it (e.g. activate the

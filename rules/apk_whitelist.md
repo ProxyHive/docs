@@ -18,3 +18,12 @@ Keeping boards to the whitelist is how you stay within [Fair Use](/rules/fair_us
 and avoid the forbidden [Traffic Usage](/rules/traffic_usage) that leads to a ban.
 
 ![The Debloat confirmation dialog, which uninstalls every non-system app that is not on the APK whitelist.](/images/features/debloat-confirm.png)
+
+## Manually whitelist APKs (here Genfarmer APKs)
+
+Edit /opt/proxyhive/.env
+Add
+
+```
+TOLERATED_PACKAGES_EXTRA=com.genfarmer.uiautomator,com.genfarmer.uiautomator.test
+```

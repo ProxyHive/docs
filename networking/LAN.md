@@ -7,6 +7,7 @@ assigned endpoint.
 
 - The LAN port can be a wired NIC or Wi-Fi / Dongle like ALFA AWUS036ACM (MT7612U) for the boards
   network.
+- If you use WLAN for the LAN interface, do NOT use the onboard wlan0 broadcom chip, it cant handle the devices, use a dongle.
 - Set your own NIC name in the
   [box configurator](/getting_started/configuration) — for example `eth0` or
   `enp3s0`.

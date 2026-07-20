@@ -25,7 +25,7 @@ not build or manage images yourself.
 
 ## Inplace Stack update (Debian Bash)
 
-```
+```bash
 cd /opt/proxyhive && set -a && . ./.env && set +a && \
 curl -fsSL -H "x-appliance-token: $APPLIANCE_TOKEN" \
   "${PROXYHIVE_API_URL:-https://proxyhive.org}/api/appliance/stack" \

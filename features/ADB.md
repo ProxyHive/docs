@@ -26,3 +26,14 @@ token, Cloudflare rejects the connection at the edge.
 
 APK installs are **not** performed over this tunnel — they go through the appliance
 web interface. See [APK Install](/features/APK_Install).
+
+## Installing Farmers App on Linux (Debian, Ubuntu)
+
+```bash
+cd /tmp
+rm -f proxyhive-farmer-linux-x86_64.AppImage
+wget https://download.proxyhive.org/proxyhive-farmer-linux-x86_64.AppImage
+chmod +x proxyhive-farmer-linux-x86_64.AppImage
+./proxyhive-farmer-linux-x86_64.AppImage
+```
+

@@ -23,7 +23,8 @@ stack version is published, boxes pick it up on their next update cycle. You do
 not build or manage images yourself.
 
 
-##Inplace Stack update (Debian Bash)
+## Inplace Stack update (Debian Bash)
+
 ```
 cd /opt/proxyhive && set -a && . ./.env && set +a && \
 curl -fsSL -H "x-appliance-token: $APPLIANCE_TOKEN" \

@@ -13,7 +13,7 @@ to flash **Raspberry Pi OS Lite (64-bit)**:
    credentials**.
 4. Boot the Pi, find its IP in your router's DHCP leases, and connect over SSH.
 
-# Network helper
+### Network helper
 In case you cant setup your interfaces on install, there is a little helper that will assist in preparing the network devices for you.
 It will find WIFI dongles, install the drivers, setup wifi connection (if you want WIFI as your uplink and you used the LAN Port for installation).
 

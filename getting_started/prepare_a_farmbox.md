@@ -36,10 +36,10 @@ Sort: 4
 ## Now switch the box to OTG and all devices should come up with an IP Address in the 10.66.x.y space
 
 - Assign Endpoints to the boards, that will enable the proxy
-- Give you Board a label
-- Install UNetwork
-- Use a mirror to configure the lease on the phone
-- Add the Licencehash to the board
+- Assign a label to the Board
+- Install UNetwork App
+- Use a Farmer App to configure the lease on the phone
+- Add the Licence-Hash to the board
 
 
 

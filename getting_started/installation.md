@@ -13,6 +13,22 @@ to flash **Raspberry Pi OS Lite (64-bit)**:
    credentials**.
 4. Boot the Pi, find its IP in your router's DHCP leases, and connect over SSH.
 
+# Network helper
+In case you cant setup your interfaces on install, there is a little helper that will assist in preparing the network devices for you.
+It will find WIFI donglos, install the drivers, setup wifi connection if you want WIFI as your uplink and you used the LAN Port for installation.
+
+Download:
+```
+wget https://download.proxyhive.org/net-setup.sh
+```
+Put that file on the appliance and start it
+```
+bash net-setup.sh
+```
+
+Use at own risk, but it should help you fix network issues
+
+
 ## 2. Generate your setup command
 
 1. Open the ProxyHive dashboard and go to **Appliances**.

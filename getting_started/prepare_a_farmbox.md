@@ -9,28 +9,28 @@ Sort: 4
 3. Check that all Boards show up as USB devices
 4. Clean up and prepare the boards
 
-### Clean up old Proxyhive Agent
+### Clean up old Proxyhive Agent (optional)
 - ```adb shell am force-stop eu.proxyhive.agent```
-- adb shell pm uninstall eu.proxyhive.agent 
-- adb shell settings put global http_proxy :0
+- ```adb shell pm uninstall eu.proxyhive.agent ```
+- ```adb shell settings put global http_proxy :0```
 
-### Remove old Unity App
-- adb shell am force-stop io.unitynodes.unityapp
-- adb shell pm uninstall io.unitynodes.unityapp
+### Remove old Unity App (optional)
+- ```adb shell am force-stop io.unitynodes.unityapp```
+- ```adb shell pm uninstall io.unitynodes.unityapp```
 
 ### BATTERY 24/7 100%
-- adb shell dumpsys battery set level 100
+- ```adb shell dumpsys battery set level 100```
 
 ### SCREEN TIME OUT
-(prevents screen turning off and Unity app from logging off)
+##### (prevents screen turning off and Unity app from logging off)
 
-- adb shell settings put system screen_off_timeout 2147483647
+- ```adb shell settings put system screen_off_timeout 2147483647```
 
 ### DISABLE AUTO-ROTATE
-- adb shell settings put system accelerometer_rotation 0
+- ```adb shell settings put system accelerometer_rotation 0```
 
-### Enable ADB on TCPIP
-- adb tcpip 5555
+### Enable ADB on TCPIP - This is the most important step!
+- ```adb tcpip 5555```
 
 
 ## Now switch the box to OTG and all devices should come up with an IP Address in the 10.66.x.y space

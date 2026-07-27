@@ -10,7 +10,7 @@ Sort: 4
 4. Clean up and prepare the boards
 
 ### Clean up old Proxyhive Agent
-- adb shell am force-stop eu.proxyhive.agent
+- ```adb shell am force-stop eu.proxyhive.agent```
 - adb shell pm uninstall eu.proxyhive.agent 
 - adb shell settings put global http_proxy :0
 

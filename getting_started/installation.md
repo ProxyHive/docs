@@ -15,7 +15,7 @@ to flash **Raspberry Pi OS Lite (64-bit)**:
 
 # Network helper
 In case you cant setup your interfaces on install, there is a little helper that will assist in preparing the network devices for you.
-It will find WIFI donglos, install the drivers, setup wifi connection if you want WIFI as your uplink and you used the LAN Port for installation.
+It will find WIFI dongles, install the drivers, setup wifi connection (if you want WIFI as your uplink and you used the LAN Port for installation).
 
 Download:
 ```

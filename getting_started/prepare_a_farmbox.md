@@ -1,6 +1,6 @@
 ---
 Title: Prepare a Farm box
-Sort: 2
+Sort: 4
 ---
 ## 1. Prepare boards
 

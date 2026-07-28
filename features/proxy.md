@@ -7,8 +7,8 @@ own WAN address.
 
 ## How it works
 
-- You purchase **endpoints** in the dashboard and **assign** one to each board.
-- The appliance provides each board with its endpoint's SOCKS5 credentials and
+- You request **endpoints** in the dashboard and **assign** one to each board.
+- The appliance provides each board with its endpoint's credentials and
   routes only that board's traffic through it.
 - The board's exit IP is a **residential** address, verified by the platform.
 
@@ -20,7 +20,7 @@ A board's proxy is considered healthy when it is present on the box and reportin
 a live residential exit IP. You can see the proxy status per board in the
 [Devices](/features/webinterface/devices) list.
 
-## Fair use
+## Fair use (This will end 2026-08-01, we switch to a traffic based system)
 
 Endpoints must carry **UNetwork traffic only**. Browsing, video, images, games and
 downloads over an endpoint are detected and lead to a permanent ban. See

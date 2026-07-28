@@ -23,7 +23,7 @@ stack version is published, boxes pick it up on their next update cycle. You do
 not build or manage images yourself.
 
 
-## Inplace Stack update (Debian Bash)
+## Inplace Stack update (Use Putty to run this on the appliance)
 
 ```bash
 cd /opt/proxyhive && set -a && . ./.env && set +a && \

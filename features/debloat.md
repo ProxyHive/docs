@@ -5,6 +5,8 @@ Each board in the appliance device list has a **Debloat** action. Debloat remove
 apps from the board that are **not on the APK whitelist**, cutting background
 traffic and reducing the risk of policy violations.
 
+FYI: The rules will be lifted after 2026-07-31 as we switch to a traffic paid system, you can then run whatever you want on the phones.
+
 ## Why debloat
 
 Some devices ship with vendor software that generates traffic on its own — for

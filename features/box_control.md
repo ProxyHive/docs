@@ -2,6 +2,11 @@
 Title: Box Control
 ---
 Box-level hardware is managed on the appliance **Settings** page (`/settings`).
+Connecting a Farmbox with USB to the Appliance is optional but it will give you the following benefits:
+- Control the Slots and Fans (Currently only for Jaba Boxes)
+- Manage Boards with ADB over USB if TCPIP or Internet is not working on the boards
+
+You can still manage boards with USB on your Laptop if the box runs on USB
 
 ## USB / OTG slots
 
@@ -13,6 +18,8 @@ manage the slots.
 
 > ⚠️ Do not put a USB hub between the host and the boards. If you need more ports,
 > use a PCIe USB expansion. See [Requirements](/getting_started/requirements).
+
+But you can connect one box after another to manage them, and then switch them to OTG. After the switch, you can safely remove the USB cable
 
 ## Fan control
 

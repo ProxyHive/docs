@@ -11,6 +11,7 @@ network and become discoverable automatically.
   without any manual entry.
 - The appliance's own DHCP does not interfere with your home router — it only
   serves the isolated board network behind the LAN NIC.
+- The DHCP Server can handle 241 Device Leases, but we advice not to connect more than 8 boxes to an appliance
 
 ![The appliance device list showing boards discovered on the LAN, each mapped to a slot.](/images/features/device-proxy-ip.png)
 

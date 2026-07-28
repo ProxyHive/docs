@@ -4,6 +4,8 @@ Sort: 2
 ---
 ## 1. Prepare the host
 
+### Raspberry Pi 4/5
+
 Install **Debian 13 (Trixie)** — on a Raspberry Pi use the **Raspberry Pi Imager**
 to flash **Raspberry Pi OS Lite (64-bit)**:
 
@@ -13,21 +15,14 @@ to flash **Raspberry Pi OS Lite (64-bit)**:
    credentials**.
 4. Boot the Pi, find its IP in your router's DHCP leases, and connect over SSH.
 
-### Network helper
-In case you cant setup your interfaces on install, there is a little helper that will assist in preparing the network devices for you.
-It will find WIFI dongles, install the drivers, setup wifi connection (if you want WIFI as your uplink and you used the LAN Port for installation).
+### amd64 (x86_64) based Mini PC or NUK
 
-Download:
-```
-wget https://download.proxyhive.org/net-setup.sh
-```
-Put that file on the appliance and start it
-```
-bash net-setup.sh
-```
-
-Use at own risk, but it should help you fix network issues
-
+1. Download the Debian Server installation ISO - ```https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-13.6.0-amd64-netinst.iso```
+2. Burn the ISO onto an USB stick with Balena Etcher - ```https://etcher.balena.io/#download-etcher```
+3. Boot your Computer with the USB Stick (Boot will show you an option for this, if not, change settings in Bios)
+4. During installation, Debian will ask for Password and Packages to install, remember that password, and only enable "SSH Server" and "System Tools"
+5. After the installation, the computer will reboot and you can use Putty to connect to the appliance with SSH - ```https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html```
+6. Use ```ip a``` and ```ip link``` to check your interface names needed for the install command
 
 ## 2. Generate your setup command
 

@@ -3,7 +3,13 @@ Title: ADB & the Farmer App
 ---
 Boards are managed over **ADB**. The appliance runs an ADB server that reaches
 every board; the **ProxyHive Farmer** desktop app connects to it to view and drive
-each board.
+each board. The Farmer app can connect to the Appliance from anywhere in the world.
+
+If you feel more comfortable using any other mirroring software, you need to do that on the local Farmbox network.
+Just connect to your computer to the same network as the farmboxes, and you can discover the Boards on 10.66.0.0/24
+
+The Farmers app might not be the best solution to setup your phones, but its the only one able to do that from outside the local network.
+It may contain bugs, it might be slow, but it also is not considered your day to day management tool for now.
 
 ## Security
 

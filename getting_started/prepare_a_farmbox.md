@@ -9,12 +9,12 @@ Sort: 4
 3. Check that all Boards show up as USB devices
 4. Clean up and prepare the boards
 
-### Clean up old Proxyhive Agent (optional)
+### Clean up old Proxyhive Agent (optional, only needed if you ran the PH Agent on the phones before)
 - ```adb shell am force-stop eu.proxyhive.agent```
 - ```adb shell pm uninstall eu.proxyhive.agent ```
 - ```adb shell settings put global http_proxy :0```
 
-### Remove old Unity App (optional)
+### Remove old Unity App (optional, only needed if the old Unity App is installed)
 - ```adb shell am force-stop io.unitynodes.unityapp```
 - ```adb shell pm uninstall io.unitynodes.unityapp```
 
@@ -29,17 +29,17 @@ Sort: 4
 ### DISABLE AUTO-ROTATE
 - ```adb shell settings put system accelerometer_rotation 0```
 
-### Enable ADB on TCPIP - This is the most important step!
+### Enable ADB on TCPIP - This is the most important step, it switches your Boards to ADB over OTG!
 - ```adb tcpip 5555```
 
 
-## Now switch the box to OTG and all devices should come up with an IP Address in the 10.66.x.y space
+## Now switch the box to OTG and all devices should come up with an IP Address in the 10.66.0.0/24 subnet
 
-- Assign Endpoints to the boards, that will enable the proxy
-- Assign a label to the Board
-- Install UNetwork App
-- Use a Farmer App to configure the lease on the phone
-- Add the Licence-Hash to the board
+- Assign Endpoints to the boards (Mapping), that will enable the proxy. If you dont have free endpoint, request them or unbind unused endpoints in Proxihive Device List
+- Assign a label to the Board, that makes it easier to identify them
+- Install UNetwork App, use the Board Menu for this
+- Use Farmer App, Genfarmer etc. to configure the lease on the phone. Farmers App runs everywhere in the world, Genfarmer & Co needs to run on the same Subnet as the boxes
+- Add the Licence-Hash to the board if you want Uptime and Rewards in the Dashboard
 
 
 

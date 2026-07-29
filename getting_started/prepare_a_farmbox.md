@@ -46,54 +46,54 @@ Sort: 4
 
 ### Samsung
 
-#### Disable auto updates
+##### Disable auto updates
 - ```adb shell pm disable-user --user 0 com.sec.android.soagent```
 - ```adb shell pm disable-user --user 0 com.wssyncmldm```
 - ```adb shell pm disable-user --user 0 com.samsung.sdm```
 
-#### Enable auto updates
+##### Enable auto updates
 - ```adb shell pm enable --user 0 com.sec.android.soagent```
 - ```adb shell pm enable --user 0 com.wssyncmldm```
 - ```adb shell pm enable --user 0 com.samsung.sdm```
 
 ### Xiaomi / Redmi / POCO
 
-#### Disable auto updates
+##### Disable auto updates
 - ```adb shell pm disable-user --user 0 com.android.updater```
 
-#### Enable auto updates
+##### Enable auto updates
 - ```adb shell pm enable --user 0 com.android.updater```
 
 ### Google Pixel / Motorola / Nokia / Nothing
 
-#### Disable auto updates
+##### Disable auto updates
 - ```adb shell pm disable-user --user 0 com.google.android.systemupdater```
 
-#### Enable auto updates
+##### Enable auto updates
 - ```adb shell pm enable --user 0 com.google.android.systemupdater```
 
 ### OnePlus / Oppo / Realme
 
-#### Disable auto updates
+##### Disable auto updates
 - ```adb shell pm disable-user --user 0 com.oplus.ota```
 
-#### Enable auto updates
+##### Enable auto updates
 - ```adb shell pm enable --user 0 com.oplus.ota```
 
 ### Huawei / Honor
 
-#### Disable auto updates
+##### Disable auto updates
 - ```adb shell pm disable-user --user 0 com.huawei.android.hwouc```
 
-#### Enable auto updates
+##### Enable auto updates
 - ```adb shell pm enable --user 0 com.huawei.android.hwouc```
 
 ### Sony
 
-#### Disable auto updates
+##### Disable auto updates
 - ```adb shell pm disable-user --user 0 com.sonyericsson.updatecenter```
 
-#### Enable auto updates
+##### Enable auto updates
 - ```adb shell pm enable --user 0 com.sonyericsson.updatecenter```
 
 

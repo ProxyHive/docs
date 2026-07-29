@@ -42,59 +42,59 @@ Sort: 4
 - Add the Licence-Hash to the board if you want Uptime and Rewards in the Dashboard
 
 
-# Optional: Disable / Enable Auto Updates
+## Optional: Disable / Enable Auto Updates
 
-## Samsung
-
-#### Disable auto updates
-```adb shell pm disable-user --user 0 com.sec.android.soagent```
-```adb shell pm disable-user --user 0 com.wssyncmldm```
-```adb shell pm disable-user --user 0 com.samsung.sdm```
-
-#### Enable auto updates
-```adb shell pm enable --user 0 com.sec.android.soagent```
-```adb shell pm enable --user 0 com.wssyncmldm```
-```adb shell pm enable --user 0 com.samsung.sdm```
-
-## Xiaomi / Redmi / POCO
+### Samsung
 
 #### Disable auto updates
-```adb shell pm disable-user --user 0 com.android.updater```
+- ```adb shell pm disable-user --user 0 com.sec.android.soagent```
+- ```adb shell pm disable-user --user 0 com.wssyncmldm```
+- ```adb shell pm disable-user --user 0 com.samsung.sdm```
 
 #### Enable auto updates
-```adb shell pm enable --user 0 com.android.updater```
+- ```adb shell pm enable --user 0 com.sec.android.soagent```
+- ```adb shell pm enable --user 0 com.wssyncmldm```
+- ```adb shell pm enable --user 0 com.samsung.sdm```
 
-## Google Pixel / Motorola / Nokia / Nothing
+### Xiaomi / Redmi / POCO
 
 #### Disable auto updates
-```adb shell pm disable-user --user 0 com.google.android.systemupdater```
+- ```adb shell pm disable-user --user 0 com.android.updater```
 
 #### Enable auto updates
-```adb shell pm enable --user 0 com.google.android.systemupdater```
+- ```adb shell pm enable --user 0 com.android.updater```
 
-## OnePlus / Oppo / Realme
+### Google Pixel / Motorola / Nokia / Nothing
 
 #### Disable auto updates
-```adb shell pm disable-user --user 0 com.oplus.ota```
+- ```adb shell pm disable-user --user 0 com.google.android.systemupdater```
 
 #### Enable auto updates
-```adb shell pm enable --user 0 com.oplus.ota```
+- ```adb shell pm enable --user 0 com.google.android.systemupdater```
 
-## Huawei / Honor
+### OnePlus / Oppo / Realme
 
 #### Disable auto updates
-```adb shell pm disable-user --user 0 com.huawei.android.hwouc```
+- ```adb shell pm disable-user --user 0 com.oplus.ota```
 
 #### Enable auto updates
-```adb shell pm enable --user 0 com.huawei.android.hwouc```
+- ```adb shell pm enable --user 0 com.oplus.ota```
 
-## Sony
+### Huawei / Honor
 
 #### Disable auto updates
-```adb shell pm disable-user --user 0 com.sonyericsson.updatecenter```
+- ```adb shell pm disable-user --user 0 com.huawei.android.hwouc```
 
 #### Enable auto updates
-```adb shell pm enable --user 0 com.sonyericsson.updatecenter```
+- ```adb shell pm enable --user 0 com.huawei.android.hwouc```
+
+### Sony
+
+#### Disable auto updates
+- ```adb shell pm disable-user --user 0 com.sonyericsson.updatecenter```
+
+#### Enable auto updates
+- ```adb shell pm enable --user 0 com.sonyericsson.updatecenter```
 
 
 

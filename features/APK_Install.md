@@ -12,7 +12,7 @@ interface** — install, update and remove APKs from the device list.
 1. Open the appliance device list.
 2. For each board, remove the legacy ProxyHive Agent and the Unity app.
 3. Install **UNetwork**.
-4. Assign an endpoint and use the [Farmer app](/features/ADB) to activate the
+4. Assign an endpoint, then open the board's [mirror](/features/ADB) to activate the
    license.
 
 ## Whitelist

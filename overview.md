@@ -2,8 +2,7 @@
 title: Overview
 sort: 10
 ---
-ProxyHive is built around a self-hosted **Appliance** and a companion **Farmer**
-desktop app. The main capabilities:
+ProxyHive is built around a self-hosted **Appliance**. The main capabilities:
 
 ## Appliance
 
@@ -20,13 +19,11 @@ desktop app. The main capabilities:
 - **Remote access** — the appliance web interface is reachable from anywhere via a
   Cloudflare tunnel, protected by an email login token.
 
-## Farmer app
+## Board mirroring
 
-- **Multi-platform** — Windows, macOS (Intel & Apple Silicon) and Linux (x86_64 &
-  arm64).
-- **Board grid** — every board as a card with a live screenshot and its label.
-- **Live mirror & control** — open a board and drive it to configure the license.
-- **Account-gated** — the ADB tunnel is only reachable by the Farmer app with your
-  account's service token; the ADB socket is never exposed openly.
-
-![The ProxyHive Farmer app showing the board grid with live screenshots of several boards, one board opened in the mirror view running UNetwork.](/images/welcome/farmer-board-grid.jpg)
+- **In the browser** — no desktop app; the appliance web interface does it all.
+- **Live mirror & control** — open a board and drive it with mouse and keyboard to
+  activate its licence. See [ADB & board mirroring](/features/ADB).
+- **Clipboard** — paste text from your computer straight onto the board.
+- **Never exposed** — the ADB socket listens on the appliance's loopback only and is
+  reachable exclusively through the logged-in web interface.

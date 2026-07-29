@@ -16,6 +16,5 @@ The **Devices** page lists every board across all your appliances.
 
 ## Actions
 
-From a board you can view its live screenshot, rotate its exit IP, and open its
-details. Board management (mirror, license) happens in the
-[Farmer app](/features/ADB).
+From a board you can view its live screenshot, rotate its exit IP, open a live
+[mirror](/features/ADB) to activate its license, and open its details.

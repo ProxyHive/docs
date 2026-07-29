@@ -38,7 +38,7 @@ Sort: 4
 - Assign Endpoints to the boards (Mapping), that will enable the proxy. If you dont have free endpoint, request them or unbind unused endpoints in Proxihive Device List
 - Assign a label to the Board, that makes it easier to identify them
 - Install UNetwork App, use the Board Menu for this
-- Use Farmer App, Genfarmer etc. to configure the lease on the phone. Farmers App runs everywhere in the world, Genfarmer & Co needs to run on the same Subnet as the boxes
+- Configure the lease on the phone: open the board's mirror in the appliance web interface — that works from anywhere. Genfarmer & Co. are an alternative but need to run on the same subnet as the boxes
 - Add the Licence-Hash to the board if you want Uptime and Rewards in the Dashboard
 
 

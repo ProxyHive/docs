@@ -28,8 +28,9 @@ Yes. The appliance images are multi-architecture. You can run it on a Raspberry 
 
 ## How do I connect to my boards?
 
-Through the **ProxyHive Farmer** desktop app. Log in with your ProxyHive account,
-select your appliance, and you will see all its boards. You can also use your windows PC to switch the Phines to OTG mode.
+Through your appliance's own web interface. Sign in with your ProxyHive e-mail and
+open **Devices** — every board is listed there, with a mirror button to view and drive it.
+You can also use your Windows PC to switch the phones to OTG mode.
 Connecting the boxes with USB to the Appliance is optional.
 
 ## Will endpoint prices change?

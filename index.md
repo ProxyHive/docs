@@ -4,8 +4,7 @@ ShowOnMenu: false
 ---
 Welcome to the official ProxyHive knowledge base. ProxyHive turns unused Android
 boards or headless phones into a managed residential proxy fleet running
-**UNetwork**, orchestrated by the **ProxyHive Appliance** and the **ProxyHive
-Farmer** desktop app.
+**UNetwork**, orchestrated by the **ProxyHive Appliance**.
 
 ![The ProxyHive dashboard at proxyhive.org listing your appliances with hostname, board count, status and claim date; here a box with all 20 boards online.](/images/features/dashboard-appliances.png)
 
@@ -25,9 +24,8 @@ Farmer** desktop app.
 - A **ProxyHive Appliance** runs on a Raspberry Pi 5 or an x86 mini-PC/server. It
   discovers your connected boards, assigns residential endpoints to them, and
   keeps the earning app running.
-- The **ProxyHive Farmer** desktop app (Windows, macOS, Linux) lets you see every
-  board of an appliance and open a live mirror to configure it — securely, over an
-  account-gated tunnel.
+- The appliance's **web interface** lets you see every board and open a live mirror
+  to configure it — from any browser, protected by your ProxyHive login.
 
 > ⚠️ ProxyHive is intended **only** for running UNetwork on headless boards or
 > unused physical phones. It is **not** for private phones, phones with SIM cards,

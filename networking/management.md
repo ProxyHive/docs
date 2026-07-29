@@ -17,6 +17,6 @@ anywhere in the world through a secure Cloudflare tunnel.
 
 ## Board management
 
-Day-to-day board control — live mirror and license activation — is done with the
-**[Farmer app](/features/ADB)**, which reaches the boards over a separate
-account-gated ADB tunnel.
+Day-to-day board control — live mirror and license activation — is done in the
+appliance's own web interface, which reaches the boards over its local ADB server.
+See [ADB & board mirroring](/features/ADB).

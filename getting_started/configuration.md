@@ -31,5 +31,5 @@ your **USB and OTG devices**. From the device list you can:
    **UNetwork**.
 4. **Assign your endpoints** to the boards.
 
-Each board then shows a **Proxy IP** with **ADB** and **Proxy** enabled. Continue
-with the [Farmer app](/features/ADB) to configure the UNetwork license.
+Each board then shows a **Proxy IP** with **ADB** and **Proxy** enabled. Continue by
+opening the board's [mirror](/features/ADB) to configure the UNetwork license.

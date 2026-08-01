@@ -23,6 +23,7 @@ The following combination of devices is possible (sample interface names):
 - LAN_IF=eth0,wlan
 
 - You can then attach Farmboxes with Ethernet and additional other Phones/Boards over WIFI
+- You need to configure this in /opt/proxyhive/.env
 
 ```Do NOT use 2 wifi interfaces on LAN_IF, they would share SSID and Password and phones would switch the connections all the time```
 

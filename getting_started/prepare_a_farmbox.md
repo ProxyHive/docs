@@ -9,6 +9,9 @@ Sort: 4
 3. Check that all Boards show up as USB devices
 4. Clean up and prepare the boards
 
+> ⚠️ Do not place a USB hub between the appliance and the boards. Use a PCIe USB
+> expansion for more ports. See [Requirements](/getting_started/requirements).
+
 ### Clean up old Proxyhive Agent (optional, only needed if you ran the PH Agent on the phones before)
 - ```adb shell am force-stop eu.proxyhive.agent```
 - ```adb shell pm uninstall eu.proxyhive.agent ```

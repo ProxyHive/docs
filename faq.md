@@ -35,15 +35,13 @@ Connecting the boxes with USB to the Appliance is optional.
 
 ## Will endpoint prices change?
 
-Endpoint pricing is expected to change as UNetwork traffic grows. Any change
-applies to renewals and new endpoints and is announced in advance in the
-dashboard.
+Currently no, Prices will rarely change but we cant promise that our Providers do the same.
 
 ## Can I connect more than one box to the appliance?
 
 Yes. Connect a simple **unmanaged Gigabit switch** to the appliance's LAN port
-and attach your boxes to that switch. The appliance serves DHCP to every board
-through the switch. See [LAN](/networking/LAN).
+and attach your boxes to that switch, or connect boards over a WIFI AP provided by the Appliance.
+The appliance serves DHCP to every board through the switch and any AP configured. See [LAN](/networking/LAN).
 
 ## Can I connect both my router and my boxes to the LAN port through a switch?
 

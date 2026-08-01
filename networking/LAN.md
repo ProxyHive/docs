@@ -17,6 +17,12 @@ If you use the Appliance WIFI AP for the phones, make sure "Wireless debugging" 
 ![Enable Wireless USB Debugging](/images/networking/adb-debug-wireless.jpg)
 
 
+You can use multiple LAN Interfaces to connect boards to the appliance
+The following combination of devices is possible (sample interface names):
+- LAN_IF=eth
+- LAN_IF=wlan
+- LAN_IF=eth0,wlan
 
-> ⚠️ Do not place a USB hub between the appliance and the boards. Use a PCIe USB
-> expansion for more ports. See [Requirements](/getting_started/requirements).
+```Do NOT use 2 wifi interfaces on LAN_IF, they would share SSID and Password and phones would switch the connections all the time```
+
+

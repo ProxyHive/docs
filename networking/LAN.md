@@ -14,14 +14,15 @@ assigned endpoint.
 
 If you use the Appliance WIFI AP for the phones, make sure "Wireless debugging" is activated!
 
-![Enable Wireless USB Debugging](/images/networking/adb-debug-wireless.jpg)
-
+### Multiple LAN Interfaces
 
 You can use multiple LAN Interfaces to connect boards to the appliance
 The following combination of devices is possible (sample interface names):
 - LAN_IF=eth
 - LAN_IF=wlan
 - LAN_IF=eth0,wlan
+
+- You can then attach Farmboxes with Ethernet and additional other Phones/Boards over WIFI
 
 ```Do NOT use 2 wifi interfaces on LAN_IF, they would share SSID and Password and phones would switch the connections all the time```
 

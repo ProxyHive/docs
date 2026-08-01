@@ -20,7 +20,7 @@ You can use multiple LAN Interfaces to connect boards to the appliance
 The following combination of devices is possible (sample interface names):
 - LAN_IF=eth
 - LAN_IF=wlan
-- LAN_IF=eth0,wlan
+- LAN_IF=eth,wlan
 
 - You can then attach Farmboxes with Ethernet and additional other Phones/Boards over WIFI
 - You need to configure this in /opt/proxyhive/.env

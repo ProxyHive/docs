@@ -20,4 +20,6 @@ an endpoint assigned to it.
 Endpoint pricing may change as UNetwork traffic grows. Any change applies to
 renewals and new endpoints and is announced in advance in the dashboard.
 
-Endpoints must carry **UNetwork traffic only** — see [Traffic Usage](/rules/traffic_usage).
+Endpoints are free; you pay for the traffic they carry. See
+[Traffic guard](/features/traffic_guard) for the limit that protects you from a board
+downloading something on its own.

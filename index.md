@@ -16,8 +16,7 @@ boards or headless phones into a managed residential proxy fleet running
   DHCP and the web interface.
 - **[Networking](/networking/WAN)** — how the WAN and LAN interfaces work and how
   the appliance is managed.
-- **[Rules](/rules/fair_use)** — fair use and the traffic policy you must follow
-  to keep your account in good standing.
+- **[Rules](/rules/apk_whitelist)** — what a board is allowed to run.
 
 ## What ProxyHive is
 
@@ -29,4 +28,4 @@ boards or headless phones into a managed residential proxy fleet running
 
 > ⚠️ ProxyHive is intended **only** for running UNetwork on headless boards or
 > unused physical phones. It is **not** for private phones, phones with SIM cards,
-> or any personal use. See the [Rules](/rules/fair_use).
+> or any personal use.

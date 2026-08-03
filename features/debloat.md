@@ -10,9 +10,10 @@ FYI: The rules will be lifted after 2026-07-31 as we switch to a traffic paid sy
 ## Why debloat
 
 Some devices ship with vendor software that generates traffic on its own — for
-example bloatware installers that silently download sponsored apps. If such
-software runs while an endpoint is active, it produces forbidden traffic and can
-get your account banned. See [Traffic Usage](/rules/traffic_usage).
+example bloatware installers that silently download sponsored apps. Traffic is
+billed by the gigabyte, so that software spends your balance on downloads you never
+asked for. The [traffic guard](/features/traffic_guard) catches the worst of it, but
+removing the software is better than being protected from it.
 
 Debloat helps you strip a board down to **UNetwork only**.
 
@@ -27,4 +28,4 @@ Debloat helps you strip a board down to **UNetwork only**.
 
 > ⚠️ You are still responsible for the board. If your device ships bloatware that
 > Debloat cannot fully remove, disable it manually before enabling the proxy —
-> see [Traffic Usage](/rules/traffic_usage).
+> whatever it downloads is billed to you.

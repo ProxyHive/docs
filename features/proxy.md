@@ -44,7 +44,9 @@ That makes the toggle the way to update a board:
 > endpoint — long enough for the traffic guard to
 > park the board for a while. It releases itself; nothing is broken.
 
-## Fair use
+## What the traffic costs
 
-Endpoints carry **UNetwork traffic only**. Browsing, video, images, games and other
-downloads over an endpoint are billed to you as traffic and, at scale, treated as abuse.
+Endpoints themselves are free — you pay for the traffic that crosses them, billed by
+the gigabyte. Anything a board sends through its endpoint counts, whether it earns you
+anything or not, which is why the appliance blocks app downloads while the proxy is on
+and why the [traffic guard](/features/traffic_guard) watches for runaways.

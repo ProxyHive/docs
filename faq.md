@@ -18,7 +18,6 @@ proxy, so a dedicated **ProxyHive Appliance** is required. See the
 
 Only headless Android boards or unused physical phones dedicated to farming.
 ProxyHive is **not** for private phones, phones with a SIM card, or personal use.
-See the [Rules](/rules/fair_use).
 
 ## Can I run the appliance on something other than a Raspberry Pi?
 

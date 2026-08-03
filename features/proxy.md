@@ -20,8 +20,31 @@ A board's proxy is considered healthy when it is present on the box and reportin
 a live residential exit IP. You can see the proxy status per board in the
 [Devices](/features/webinterface/devices) list.
 
-## Fair use (This will end 2026-08-01, we switch to a traffic based system)
+## Switching a board's proxy off
 
-Endpoints must carry **UNetwork traffic only**. Browsing, video, images, games and
-downloads over an endpoint are detected and lead to a permanent ban. See
-[Traffic Usage](/rules/traffic_usage).
+Each board has a proxy toggle in the [Devices](/features/webinterface/devices) list.
+Switched off, the board keeps working — it simply stops using its paid endpoint and
+goes out over the appliance's own internet line instead.
+
+**This also changes how the board resolves names.** While the proxy is on, the
+appliance answers DNS itself and blocks the Google Play download servers: a board
+should not spend your traffic budget pulling app packages through a paid residential
+endpoint. With the proxy off that traffic no longer costs anything, so the board uses
+your router's DNS and those downloads work normally.
+
+That makes the toggle the way to update a board:
+
+1. Switch the board's proxy **off**.
+2. Let the Play Store finish its updates. This traffic runs over your own line and is
+   not billed.
+3. Switch the proxy back **on**.
+
+> After switching back on, give the board a few minutes before judging it. Boards cache
+> DNS answers for around four minutes, so a download can briefly continue over the paid
+> endpoint — long enough for the traffic guard to
+> park the board for a while. It releases itself; nothing is broken.
+
+## Fair use
+
+Endpoints carry **UNetwork traffic only**. Browsing, video, images, games and other
+downloads over an endpoint are billed to you as traffic and, at scale, treated as abuse.

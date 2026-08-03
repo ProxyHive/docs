@@ -36,6 +36,20 @@ you should see ADB and PROXY green and you should see an exit IP.
 # App install
 After all issues above have been fixed, you can then install UNetwork onto the phone with the appliance Board menu and use genfarmer over USB to configure the app
 
+# Play Store updates will not download
+
+This is deliberate while a board's proxy is on. The appliance blocks Google's download
+servers so app packages are not pulled through your paid endpoint, where they would be
+billed as traffic — a single system component can be well over 100 MB per board.
+
+To update a board, switch its proxy **off** in the device list, let the updates finish,
+then switch it back on. With the proxy off the board uses your own internet line and
+your own router's DNS, and the downloads work. See [Proxy](/features/proxy).
+
+Give it a few minutes after switching back on: boards cache DNS answers for about four
+minutes, so a download may briefly continue over the endpoint and trip the traffic
+guard. The board releases itself after the hold.
+
 # Not earning
 The 3rd button (UNet OK) only becomes green when your Unity API is connected on Proxyhive, and a license hash has been assigned to the phone on the appliance
 

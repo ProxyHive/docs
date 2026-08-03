@@ -1,7 +1,10 @@
 ---
 Title: Box Control
 ---
-Box-level hardware is managed on the appliance **Settings** page (`/settings`).
+Box-level hardware is managed on the appliance **Settings** page (`/settings`), under
+the **Box control** tab. The page is split into tabs — support access, debloating,
+watchdogs, box control, ADB keys and your account — and the open tab is part of the
+address, so a link points at the right one.
 Connecting a Farmbox with USB to the Appliance is optional but it will give you the following benefits:
 - Control the Slots and Fans (Currently only for Jaba Boxes)
 - Manage Boards with ADB over USB if TCPIP or Internet is not working on the boards

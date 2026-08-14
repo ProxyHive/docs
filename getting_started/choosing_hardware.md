@@ -5,13 +5,15 @@ sort: 15
 
 ## Choosing hardware
 
-This page gives **requirements, not shopping links**. A product listing is out of stock or
-replaced by a different revision within months, and a recommendation that has quietly rotted is
-worse than none — you would buy it in good faith. Chipsets, port counts and interface rules stay
-true for years, and they work on whichever Amazon you actually buy from.
+This page gives **requirements**, and deliberately not a list of links. A product listing is out
+of stock or replaced by a different revision within months, and a recommendation that has quietly
+rotted is worse than none — you would buy it in good faith. Chipsets, port counts and interface
+rules stay true for years, and they work in whichever shop you actually buy from.
 
-So: match the specification, search your local shop for it, and use the known-good parts named
-here as a reference point rather than a shopping list.
+**If you want current listings, ask in support.** We can search live and check what comes back
+against the requirements below — which is the part that is easy to get wrong, because a listing
+title tells you the port count and says nothing about what is behind those ports. A written page
+cannot stay current; a search can.
 
 # Answer these two questions first
 

@@ -32,6 +32,17 @@ will ask you three things. Each answer is remembered, and this is the only time 
 3. **Allow debugging from this computer?** — tick **Always allow from this computer**, then
    **Allow**. This is the app asking the board to trust it.
 
+If the board is already on a Wi-Fi network, you will also be asked to confirm that it is your
+**permanent, saved** connection. Answer honestly — the app cannot tell the difference, and the
+answer decides what it does after every future reboot:
+
+- **Yes** — on boot it waits for your network and never touches the appliance's AP.
+- **No** — on boot it goes straight to the appliance's AP instead.
+
+The screen also shows how the board reaches the appliance, as **Uplink: OTG (USB)** or
+**Uplink: Wi-Fi**. A board on USB keeps its link through all of this; a Wi-Fi board is briefly
+without one whenever the AP has to be used, which is why the question above matters.
+
 When all four lines on the screen are green, press **Done — run in background**. The app
 disappears and does not need to be opened again.
 
@@ -43,6 +54,11 @@ disappears and does not need to be opened again.
 
 On every boot the app checks whether the board is already reachable. If it is, it does nothing
 and stops. If it is not, it restores access and steps back out of the way.
+
+Getting onto a network is given three attempts. Each one waits twenty seconds for your own Wi-Fi
+and then tries the appliance's AP. If neither appears after three rounds, the app stops and says
+so in its log — **one of the two has to be there.** A board with no network in range and no
+dongle within reach is not something it can mend.
 
 It also leaves the Wi-Fi alone whenever it can. If your board is on Wi-Fi and connected, that is
 all Android needs, and the appliance's network is never touched. Only a board with no Wi-Fi
@@ -70,6 +86,10 @@ shell cmd wifi list-networks
 ```
 
 If that answers `No networks`, the board has nothing to come back to.
+
+The app cannot check this for you. Android does not let an app read the saved network list, and a
+temporary network looks exactly like a saved one for as long as it is connected — the difference
+only shows after a restart, which is too late. That is why it asks you instead.
 
 ## When it does not work
 
